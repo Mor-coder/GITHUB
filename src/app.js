@@ -39,14 +39,6 @@ function showTemperature(response) {
   let humidityElement = document.querySelector("#humidity");
   humidityElement.innerHTML = `Humidity: ${humidity}%`;
 
-  let sunrise = response.data.sys.sunrise;
-  let sunriseElement = document.querySelector("#sunrise");
-  sunriseElement.innerHTML = `${sunrise}`;
-
-  let sunset = response.data.sys.sunset;
-  let sunsetElement = document.querySelector("#sunset");
-  sunsetElement.innerHTML = `${sunset}`;
-
   let apiKey = "3a3f0183203cd25f32e5e40604f19192";
   let units = "metric";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
