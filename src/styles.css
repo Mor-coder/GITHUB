@@ -1,0 +1,157 @@
+section {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid #d0e2e2;
+  border-radius: 20px;
+  max-width: 700px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(204, 228, 247) 11.2%,
+    rgb(237, 246, 250) 100.2%
+  );
+}
+
+input {
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #a1b5c2;
+  background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poiret One", cursive;
+}
+
+button {
+  border-radius: 5px;
+  line-height: normal;
+  background-color: transparent;
+  border: 1px solid #a1b5c2;
+  padding: 4px 5px;
+}
+
+h1 {
+  font-size: 75px;
+  color: #fc7b02;
+  position: relative;
+  top: 28px;
+  font-weight: normal;
+}
+
+h2 {
+  position: relative;
+  bottom: 150px;
+  left: 180px;
+  font-weight: bold;
+}
+
+h3 {
+  position: relative;
+  bottom: 160px;
+  left: 181px;
+  font-family: "Poiret One", cursive;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.temperature {
+  font-size: 130px;
+  color: #fc7b02;
+}
+
+.celsius-link {
+  text-decoration: none;
+  position: relative;
+  bottom: 80px;
+  left: 1px;
+  font-size: smaller;
+}
+
+.time {
+  position: relative;
+  bottom: 189px;
+  left: 360px;
+  font-size: 15px;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+}
+.conditions {
+  position: relative;
+  bottom: 190px;
+  left: 180px;
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+}
+
+.daily-hourly {
+  position: relative;
+  bottom: 2px;
+  font-weight: bold;
+}
+
+.week {
+  position: relative;
+  bottom: 180px;
+  left: 5px;
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+}
+.sunF {
+  position: relative;
+  left: 10px;
+  color: #ffe900;
+  font-size: 25px;
+}
+
+.sunS {
+  position: relative;
+  left: 20px;
+  color: #ffe900;
+  font-size: 25px;
+}
+
+.degreeFriday {
+  position: relative;
+  font-size: 12px;
+  left: 2px;
+}
+
+.degreeSaturday {
+  position: relative;
+  font-size: 12px;
+  left: 10px;
+}
+
+.degreeSunday {
+  position: relative;
+  font-size: 12px;
+  left: 15px;
+}
+
+.degreeMonday {
+  position: relative;
+  font-size: 12px;
+  left: 10px;
+}
+
+.degreeTuesday {
+  position: relative;
+  font-size: 12px;
+  left: 12px;
+}
+
+.degreeWednesday {
+  position: relative;
+  font-size: 12px;
+  left: 12px;
+}
+
+.degreeThursday {
+  position: relative;
+  font-size: 12px;
+  left: 35px;
+}
