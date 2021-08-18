@@ -73,7 +73,7 @@ h3 {
 
 .conditions {
   position: relative;
-  bottom: 190px;
+  bottom: 150px;
   left: 180px;
   font-family: "Poiret One", cursive;
   font-size: 20px;
@@ -81,13 +81,13 @@ h3 {
 
 .daily-hourly {
   position: relative;
-  bottom: 2px;
+  bottom: 5px;
   font-weight: bold;
 }
 
 .week {
   position: relative;
-  bottom: 180px;
+  bottom: 140px;
   left: 5px;
   font-family: "Poiret One", cursive;
   font-size: 20px;
